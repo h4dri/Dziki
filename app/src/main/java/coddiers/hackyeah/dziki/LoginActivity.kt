@@ -53,10 +53,11 @@ class LoginActivity : AppCompatActivity() {
 
 
         if (requestCode == RC_SIGN_IN) {
+
+
             val response = IdpResponse.fromResultIntent(data)
             if (resultCode == Activity.RESULT_OK) {
                 Log.d(TAG,"Login succces:"+resultCode)
-                startActivity(this.mainMenuIntent)
 
 
             } else {
@@ -65,6 +66,7 @@ class LoginActivity : AppCompatActivity() {
                 // response.getError().getErrorCode() and handle the error.
                 // ...
             }
+            startActivity(this.mainMenuIntent)
         }
     }
     // [END auth_fui_result]

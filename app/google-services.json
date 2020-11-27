@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "77997406516",
+    "firebase_url": "https://dzikihackyeah.firebaseio.com",
+    "project_id": "dzikihackyeah",
+    "storage_bucket": "dzikihackyeah.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77997406516:android:5bcd62cc065f2d7d198d61",
+        "android_client_info": {
+          "package_name": "coddiers.hackyeah.dziki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77997406516-mhqqpeamjk16ic8tijf7ogcf0l48c8k4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4oiWW-ad0FIyZ88uavL8jpArQcJ5mbm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77997406516-mhqqpeamjk16ic8tijf7ogcf0l48c8k4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
